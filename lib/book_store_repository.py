@@ -11,3 +11,4 @@ class BookRepository:
             item = BookStore(row["id"], row["title"], row["author_name"])
             books.append(item)
         return books
+    
